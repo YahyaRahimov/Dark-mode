@@ -3,56 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Mode</title>
+  <title>Time</title>
 
-    <!-- CSS-STYLES -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+  <!-- Css style -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark-mode">
-  <main class="main-content">
-    <div class="container">
-      <header class="site-header">
-        <a class="header-link" href="#"> Overreacted</a>
-        <button class="site-header-light links" type="button">Light</button>
-        <button class="site-header-dark links" type="button">Dark</button>
-      </header>
+<body>
+  <div class="main-cont container">
+    <div class="time-wrapper">
+      <span class="date-year">
+      <p class="date"></p>
+      <p class="month"></p>
+      <p class="year"></p>
+      </span>
 
-      <div class="author">
-        <img class="author-img" src="img/umarov.jpg" alt="#" width="56" height="56">
-        <div class="author-info">
-          <div class="author-info-top"> Personal blog by <a class="#" href="https://t.me/Exxxentricen" target="_blank">Ali Umarov</a>.</div>
-          <div class="author-info-text">
-            I explain with words and code.
-          </div>
-        </div>
-      </div>
+      <span class="time">
+        <p class="hour"></p>
+        <p class="minute"></p>
+        <p class="second"></p>
+      </span>
 
-      <ul class="articles">
-        <li class="articles-item">
-          <h2 class="articles-title"><a class="articles-link" href="#">Broken by Design</a></h2>
-          <p class="articles-text">Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)</p>
-        </li>
-        <li class="articles-item">
-          <h2 class="articles-title"><a class="articles-link" href="#">Broken by Design</a></h2>
-          <p class="articles-text">Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)</p>
-        </li>
-        <li class="articles-item">
-          <h2 class="articles-title"><a class="articles-link" href="#">Broken by Design</a></h2>
-          <p class="articles-text">Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)</p>
-        </li>
-        <li class="articles-item">
-          <h2 class="articles-title"><a class="articles-link" href="#">Broken by Design</a></h2>
-          <p class="articles-text">Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)</p>
-        </li>
-        <li class="articles-item">
-          <h2 class="articles-title"><a class="articles-link" href="#">Broken by Design</a></h2>
-          <p class="articles-text">Found 99 vulnerabilities (84 moderately irrelevant, 15 highly irrelevant)</p>
-        </li>
-      </ul>
+      <button>change picture</button>
+
     </div>
-  </main>
+  </div>
 
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
